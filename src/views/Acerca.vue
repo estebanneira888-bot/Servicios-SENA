@@ -133,7 +133,22 @@
         </q-card-section>
 
         <q-separator />
+        
+            <q-card class="integrante">
+              <q-card-section class="text-center">
+                  <q-icon name="👦🏻" size="60px" />
+            
+                <div class="text-h6 text-weight-bold q-mt-md">
+                  Esteban Neira
+                </div>
 
+                <div class="text-subtitle1">
+                  Desarrollador
+                </div>
+
+              </q-card-section>
+
+            </q-card>
 
       </q-card>
 
