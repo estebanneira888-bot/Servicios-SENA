@@ -1,15 +1,13 @@
-```vue
 <template>
-  <q-page class="enfermeria-fondo q-pa-md">
+  <q-page class="fondo q-pa-md">
 
-    <div class="enfermeria-contenedor">
+    <div class="contenedor">
 
-      <!-- FOTO DE ENFERMERÍA -->
-      <q-card class="enfermeria-card">
+      <q-card class="card">
 
         <q-img
           src="../img/Enfermeria2.png"
-          class="enfermeria-banner"
+          class="banner"
           fit="cover"
         >
           <div class="absolute-bottom text-h4 text-weight-bold">
@@ -17,10 +15,9 @@
           </div>
         </q-img>
 
-        <!-- DESCRIPCIÓN -->
         <q-card-section>
-          <div class="text-h5 text-weight-bold text-primary q-mb-md">
-            Enfermería
+          <div class="text-h5 text-weight-bold q-mb-md">
+            <div class="titulos">Enfermería</div>
           </div>
 
           <p class="texto-descripcion">
@@ -44,11 +41,9 @@
 
         <q-separator />
 
-        <!-- HORARIOS -->
         <q-card-section>
-          <div class="text-h6 text-weight-bold text-primary q-mb-md">
-            <q-icon name="schedule" class="q-mr-sm" />
-            Horarios de atención
+          <div class="text-h6 text-weight-bold q-mb-md">
+            <div class="titulos">⏳Horarios de atención</div>
           </div>
 
           <q-list bordered separator class="rounded-borders">
@@ -59,7 +54,7 @@
               </q-item-section>
 
               <q-item-section side>
-                7:00 a. m. - 6:00 p. m.
+                6:30 a. m. - 10:30 a.m - 4:00 p.m - 8:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -69,7 +64,7 @@
               </q-item-section>
 
               <q-item-section side>
-                7:00 a. m. - 6:00 p. m.
+                6:30 a. m. - 10:30 a.m - 4:00 p.m - 8:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -79,7 +74,7 @@
               </q-item-section>
 
               <q-item-section side>
-                7:00 a. m. - 6:00 p. m.
+                6:30 a. m. - 10:30 a.m - 4:00 p.m - 8:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -89,7 +84,7 @@
               </q-item-section>
 
               <q-item-section side>
-                7:00 a. m. - 6:00 p. m.
+                6:30 a. m. - 10:30 a.m - 4:00 p.m - 8:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -99,7 +94,7 @@
               </q-item-section>
 
               <q-item-section side>
-                7:00 a. m. - 5:00 p. m.
+                6:30 a. m. - 10:30 a.m - 4:00 p.m - 8:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -109,7 +104,7 @@
               </q-item-section>
 
               <q-item-section side>
-                8:00 a. m. - 12:00 p. m.
+                Sin servicio
               </q-item-section>
             </q-item>
 
@@ -119,7 +114,7 @@
               </q-item-section>
 
               <q-item-section side>
-                Cerrado
+                Sin servicio
               </q-item-section>
             </q-item>
 
@@ -128,16 +123,14 @@
 
         <q-separator />
 
-        <!-- CONTACTO -->
         <q-card-section>
 
-          <div class="text-h6 text-weight-bold text-primary q-mb-md">
-            <q-icon name="phone" class="q-mr-sm" />
-            Contacto
+          <div class="text-h6 text-weight-bold q-mb-md">
+            <div class="titulos">📱Contacto</div>
           </div>
 
           <div class="contacto-item">
-            <q-icon name="phone" size="28px" color="primary" />
+            
 
             <span>
               +57 321 415 39 95
@@ -151,9 +144,8 @@
        
         <q-card-section>
 
-          <div class="text-h6 text-weight-bold text-primary q-mb-lg">
-            <q-icon name="⛑️" class="q-mr-sm" />
-            Encargado de atención al cliente
+          <div class="text-h6 text-weight-bold q-mb-lg">
+            <div class="titulos">⛑️Encargado de atención al cliente</div>
           </div>
 
           <div class="encargado">

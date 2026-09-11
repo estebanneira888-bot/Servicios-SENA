@@ -16,6 +16,7 @@
 
    <q-drawer v-model="leftDrawerOpen" side="left" overlay behavior="mobile" bordered>
   <h4 class="menu-titulo">Menu.....</h4>
+  <q-btn flat class="menu-item" to="/"><q-icon name="🫂" />Acerca</q-btn>
   <q-btn flat class="menu-item" to="/Bienestar"><q-icon name="❤️‍🩹" />Bienestar</q-btn>
   <q-btn flat class="menu-item" to="/Biblioteca"><q-icon name="📚" />Biblioteca</q-btn>
   <q-btn flat class="menu-item" to="/Enfermeria"><q-icon name="⛑️" />Enfermería</q-btn>

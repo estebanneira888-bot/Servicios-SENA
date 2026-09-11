@@ -1,14 +1,14 @@
 <template>
-  <q-page class="biblioteca-fondo q-pa-md">
+  <q-page class="fondo q-pa-md">
 
-    <div class="biblioteca-contenedor">
+    <div class="contenedor">
 
     
-      <q-card class="biblioteca-card">
+      <q-card class="card">
 
         <q-img
           src="../img/biblioteca2.png"
-          class="biblioteca-banner"
+          class="banner"
           fit="cover"
         >
           <div class="absolute-bottom text-h4 text-weight-bold">
@@ -18,8 +18,8 @@
 
     
         <q-card-section>
-          <div class="text-h5 text-weight-bold text-primary q-mb-md">
-            Biblioteca
+          <div class="text-h5 text-weight-bold q-mb-md">
+            <div class="titulos">Biblioteca</div>
           </div>
 
           <p class="texto-descripcion">
@@ -43,8 +43,7 @@
      
         <q-card-section>
           <div class="text-h6 text-weight-bold text-primary q-mb-md">
-            <q-icon name="⏳" class="q-mr-sm" />
-            Horarios de atención
+            <div class="titulos">⏳Horarios de atención</div>
           </div>
 
           <q-list bordered separator class="rounded-borders">
@@ -105,7 +104,7 @@
               </q-item-section>
 
               <q-item-section side>
-                Cerrado
+                Sin servicio
               </q-item-section>
             </q-item>
 
@@ -115,7 +114,7 @@
               </q-item-section>
 
               <q-item-section side>
-                Cerrado
+                Sin servicio
               </q-item-section>
             </q-item>
 
@@ -125,9 +124,8 @@
         <q-separator />
 
         <q-card-section>
-          <div class="text-h6 text-weight-bold text-primary q-mb-md">
-            <q-icon name="📱" class="q-mr-sm" />
-            Contacto
+          <div class="text-h6 text-weight-bold q-mb-md">
+            <div class="titulos">📱Contacto</div>
           </div>
 
           <div class="contacto-item">
@@ -141,9 +139,8 @@
        
         <q-card-section>
 
-          <div class="text-h6 text-weight-bold text-primary q-mb-lg">
-            <q-icon name="👩🏻" class="q-mr-sm" />
-            Encargado de atención al cliente
+          <div class="text-h6 text-weight-bold q-mb-lg">
+            <div class="titulos">👩🏻Encargado de atención al cliente</div>
           </div>
 
           <div class="encargado">
