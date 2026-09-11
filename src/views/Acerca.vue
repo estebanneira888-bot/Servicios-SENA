@@ -143,6 +143,8 @@
                 </div>
 
                 <div class="text-subtitle1">
+                  estebanneira888@gmail.com<br>
+                  ficha: 3174193<br>
                   Desarrollador
                 </div>
 
