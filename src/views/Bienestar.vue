@@ -51,7 +51,7 @@
               </q-item-section>
 
               <q-item-section side>
-                7:30 a. m. - 12:00 p. m - 2:00 a. m - 6:00 p. m.
+                7:30 a. m. - 12:00 p. m ---- 2:00 p. m - 6:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -61,7 +61,7 @@
               </q-item-section>
 
               <q-item-section side>
-                7:30 a. m. - 12:00 p. m - 2:00 a. m - 6:00 p. m.
+                7:30 a. m. - 12:00 p. m ---- 2:00 p. m - 6:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -71,7 +71,7 @@
               </q-item-section>
 
               <q-item-section side>
-                7:30 a. m. - 12:00 p. m - 2:00 a. m - 6:00 p. m.
+               7:30 a. m. - 12:00 p. m ---- 2:00 p. m - 6:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -81,7 +81,7 @@
               </q-item-section>
 
               <q-item-section side>
-                7:30 a. m. - 12:00 p. m - 2:00 a. m - 6:00 p. m.
+                7:30 a. m. - 12:00 p. m ---- 2:00 p. m - 6:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -91,7 +91,7 @@
               </q-item-section>
 
               <q-item-section side>
-                7:30 a. m. - 12:00 p. m - 2:00 a. m - 6:00 p. m.
+               7:30 a. m. - 12:00 p. m ---- 2:00 p. m - 6:00 p. m.
               </q-item-section>
             </q-item>
 
