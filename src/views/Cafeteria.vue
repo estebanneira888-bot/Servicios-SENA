@@ -52,7 +52,7 @@ La cafetería también representa un lugar importante dentro del Centro Agrotur�
               </q-item-section>
 
               <q-item-section side>
-                7:00 a. m. - 12:00 p. m - 1:00 a. m - 5:30 p. m. - 7:00 p. m - 9:00 p. m
+                7:00 a. m. - 12:00 p. m - 1:00 p. m ---- 5:30 p. m. - 7:00 p. m - 9:00 p. m
               </q-item-section>
             </q-item>
 
@@ -62,7 +62,7 @@ La cafetería también representa un lugar importante dentro del Centro Agrotur�
               </q-item-section>
 
               <q-item-section side>
-                7:00 a. m. - 12:00 p. m - 1:00 a. m - 5:30 p. m. - 7:00 p. m - 9:00 p. m
+                7:00 a. m. - 12:00 p. m - 1:00 p. m ---- 5:30 p. m. - 7:00 p. m - 9:00 p. m
               </q-item-section>
             </q-item>
 
@@ -72,7 +72,7 @@ La cafetería también representa un lugar importante dentro del Centro Agrotur�
               </q-item-section>
 
               <q-item-section side>
-                7:00 a. m. - 12:00 p. m - 1:00 a. m - 5:30 p. m. - 7:00 p. m - 9:00 p. m
+                7:00 a. m. - 12:00 p. m - 1:00 p. m ---- 5:30 p. m. - 7:00 p. m - 9:00 p. m
               </q-item-section>
             </q-item>
 
@@ -82,7 +82,7 @@ La cafetería también representa un lugar importante dentro del Centro Agrotur�
               </q-item-section>
 
               <q-item-section side>
-                7:00 a. m. - 12:00 p. m - 1:00 a. m - 5:30 p. m. - 7:00 p. m - 9:00 p. m
+                7:00 a. m. - 12:00 p. m - 1:00 p. m ---- 5:30 p. m. - 7:00 p. m - 9:00 p. m
               </q-item-section>
             </q-item>
 
@@ -92,7 +92,7 @@ La cafetería también representa un lugar importante dentro del Centro Agrotur�
               </q-item-section>
 
               <q-item-section side>
-                7:00 a. m. - 12:00 p. m - 1:00 a. m - 5:30 p. m. - 7:00 p. m - 9:00 p. m
+                7:00 a. m. - 12:00 p. m - 1:00 p. m ---- 5:30 p. m. - 7:00 p. m - 9:00 p. m
               </q-item-section>
             </q-item>
 

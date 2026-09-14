@@ -23,16 +23,10 @@
           <p class="texto-descripcion">
             El servicio de enfermería del SENA brinda atención y orientación
             básica en salud a los aprendices, instructores y demás integrantes
-            de la comunidad educativa.
-          </p>
-
-          <p class="texto-descripcion">
+            de la comunidad educativa.<br>
             Este espacio está destinado a prestar primeros auxilios, realizar
             acompañamiento en situaciones que requieran atención inmediata y
-            promover hábitos de vida saludable.
-          </p>
-
-          <p class="texto-descripcion">
+            promover hábitos de vida saludable.<br>
             También ofrece orientación sobre el cuidado de la salud y,
             cuando es necesario, facilita la remisión a los servicios de salud
             correspondientes.
@@ -54,7 +48,7 @@
               </q-item-section>
 
               <q-item-section side>
-                6:30 a. m. - 10:30 a.m - 4:00 p.m - 8:00 p. m.
+                6:30 a. m. - 10:30 a.m ---- 4:00 p.m - 8:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -64,7 +58,7 @@
               </q-item-section>
 
               <q-item-section side>
-                6:30 a. m. - 10:30 a.m - 4:00 p.m - 8:00 p. m.
+                6:30 a. m. - 10:30 a.m ---- 4:00 p.m - 8:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -74,7 +68,7 @@
               </q-item-section>
 
               <q-item-section side>
-                6:30 a. m. - 10:30 a.m - 4:00 p.m - 8:00 p. m.
+                6:30 a. m. - 10:30 a.m ---- 4:00 p.m - 8:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -84,7 +78,7 @@
               </q-item-section>
 
               <q-item-section side>
-                6:30 a. m. - 10:30 a.m - 4:00 p.m - 8:00 p. m.
+                6:30 a. m. - 10:30 a.m ---- 4:00 p.m - 8:00 p. m.
               </q-item-section>
             </q-item>
 
@@ -94,7 +88,7 @@
               </q-item-section>
 
               <q-item-section side>
-                6:30 a. m. - 10:30 a.m - 4:00 p.m - 8:00 p. m.
+                6:30 a. m. - 10:30 a.m ---- 4:00 p.m - 8:00 p. m.
               </q-item-section>
             </q-item>
 
