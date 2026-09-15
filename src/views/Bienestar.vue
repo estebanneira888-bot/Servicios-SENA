@@ -1,9 +1,8 @@
 <template>
-  <q-page class="fondo q-pa-md">
+  <q-page class="fondo">
 
     <div class="contenedor">
 
-    
       <q-card class="card">
 
         <q-img
@@ -11,161 +10,142 @@
           class="banner"
           fit="cover"
         >
-          <div class="absolute-bottom text-h4 text-weight-bold">
-            Bienestar
+          <div class="banner-titulo">
+            <h1>Bienestar</h1>
+            <p>Bienestar, acompañamiento y desarrollo integral para los aprendices.</p>
           </div>
         </q-img>
 
-    
-        <q-card-section>
-          <div class="text-h5 text-weight-bold q-mb-md">
-            <div class="titulos">Bienestar</div>
-          </div>
+        <div class="contenido-principal">
 
-          <p class="texto-descripcion">
-           Bienestar al aprendiz es una estrategia institucional para contribuir en la permanencia de los aprendices en su proceso formativo.<br>
-            Los servicios que presta están alineados con los objetivos estrátegicos y operativos establecidos en la Política Nacional Integral de Bienestar al aprendiz,
-            tales como el reconomiento de la Cultura como creadora de identidad, generadora de inclusión y catalizadora de diversidad; <br>
-            Generación en los aprendices prácticas asociadas a la prevención de la enfermedad y promoción de la salud a través de la gestión con entidades competentes (salud física y mental);<br> 
-            fortalecimiento de habilidades blandas y para la vida; deporte, actividad física y  aprovechamiento del tiempo libre como elementos fundamentales en mejoramiento de la formación profesional integral;
-             promoción de expresiones de arte de los aprendices en su formación profesional integral.
-             <br> Además de lo anterior, desde Bienestar al aprendiz se manejan temas como apoyos socioecnómicos (apoyos de sostenimiento regular, 
-             FIC, medios tecnológicos, alimentación y transporte),
-            monitorias y fortalecimiento y ejercicio de liderazgo.
-          </p>
-        </q-card-section>
+          <div class="columna-izquierda">
 
-        <q-separator />
+            <div class="seccion">
 
-     
-        <q-card-section>
-          <div class="text-h6 text-weight-bold text-primary q-mb-md">
-            <div class="titulos">⏳Horarios de atención</div>
-          </div>
-
-          <q-list bordered separator class="rounded-borders">
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Lunes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:30 a. m. - 12:00 p. m ---- 2:00 p. m - 6:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Martes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:30 a. m. - 12:00 p. m ---- 2:00 p. m - 6:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Miércoles</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-               7:30 a. m. - 12:00 p. m ---- 2:00 p. m - 6:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Jueves</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:30 a. m. - 12:00 p. m ---- 2:00 p. m - 6:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Viernes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-               7:30 a. m. - 12:00 p. m ---- 2:00 p. m - 6:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Sábado</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                Sin servicio
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Domingo</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                Sin servicio
-              </q-item-section>
-            </q-item>
-
-          </q-list>
-        </q-card-section>
-
-        <q-separator />
-
-        <q-card-section>
-          <div class="text-h6 text-weight-bold q-mb-md">
-            <div class="titulos">📱Contacto</div>
-          </div>
-
-          <div class="contacto-item">
-            <size="28px" color="primary" />
-            <span>+57 317 637 76 70 </span>
-          </div>
-        </q-card-section>
-
-        <q-separator />
-
-       
-        <q-card-section>
-
-          <div class="text-h6 text-weight-bold q-mb-lg">
-            <div class="titulos">👩🏻Encargado de atención al cliente</div>
-          </div>
-
-          <div class="encargado">
-
-            <q-avatar size="110px" color="primary" text-color="white">
-              <img src="../img/bienestar.jpeg" size="65px" />
-            </q-avatar>
-
-            <div class="encargado-info">
-
-              <div class="text-h6 text-weight-bold">
-                Líder de bienestar al aprendiz 
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="❓" />
+                </div>
+                ¿Qué es el servicio?
               </div>
 
-              <div class="text-subtitle1">
-                Maria Delea Arenas Mejía 
+              <p class="texto-descripcion">
+                Bienestar al aprendiz es una estrategia institucional para
+                contribuir en la permanencia de los aprendices en su proceso
+                formativo.<br><br>
+
+                Los servicios que presta están alineados con los objetivos
+                estratégicos y operativos establecidos en la Política Nacional
+                Integral de Bienestar al Aprendiz.<br><br>
+
+                Promueve la prevención de la enfermedad, la promoción de la salud,
+                el fortalecimiento de habilidades para la vida, el deporte,
+                la actividad física y el aprovechamiento del tiempo libre.<br><br>
+
+                También maneja apoyos socioeconómicos, monitorías y fortalecimiento
+                del liderazgo de los aprendices.
+              </p>
+
+            </div>
+
+            <div class="seccion">
+
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="⏳" />
+                </div>
+                Horarios de atención
               </div>
 
-              <div class="text-body1 q-mt-sm">
-                <class="q-mr-sm"/>
-                mdarenas@sena.edu.com
+              <q-list class="horarios">
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Lunes</q-item-section>
+                  <q-item-section side class="horario-hora">7:30 a. m. - 12:00 p. m. / 2:00 p. m. - 6:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Martes</q-item-section>
+                  <q-item-section side class="horario-hora">7:30 a. m. - 12:00 p. m. / 2:00 p. m. - 6:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Miércoles</q-item-section>
+                  <q-item-section side class="horario-hora">7:30 a. m. - 12:00 p. m. / 2:00 p. m. - 6:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Jueves</q-item-section>
+                  <q-item-section side class="horario-hora">7:30 a. m. - 12:00 p. m. / 2:00 p. m. - 6:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Viernes</q-item-section>
+                  <q-item-section side class="horario-hora">7:30 a. m. - 12:00 p. m. / 2:00 p. m. - 6:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Sábado</q-item-section>
+                  <q-item-section side class="horario-hora">Sin servicio</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Domingo</q-item-section>
+                  <q-item-section side class="horario-hora">Sin servicio</q-item-section>
+                </q-item>
+
+              </q-list>
+
+            </div>
+
+            <div class="contacto-box">
+
+              <div class="contacto-icono">
+                <q-icon name="📱" />
+              </div>
+
+              <div>
+                <div class="contacto-titulo">CONTACTO</div>
+                <div class="contacto-numero">
+                  +57 317 637 76 70
+                </div>
               </div>
 
             </div>
 
           </div>
 
-        </q-card-section>
+          <div class="tarjeta-encargado">
+
+            <q-avatar>
+              <img src="../img/bienestar.jpeg">
+            </q-avatar>
+
+            <div class="nombre-encargado">
+              Maria Delea Arenas Mejía
+            </div>
+
+            <div class="cargo-encargado">
+              Líder de Bienestar al Aprendiz
+            </div>
+
+            <div class="dato-encargado">
+              <q-icon name="🙌" />
+              Bienestar al aprendiz
+            </div>
+
+            <div class="dato-encargado">
+              <q-icon name="📩" />
+              mdarenas@sena.edu.com
+            </div>
+
+            <div class="mensaje-encargado">
+              “Tu bienestar es parte fundamental de tu formación.”
+            </div>
+
+          </div>
+
+        </div>
 
       </q-card>
 

@@ -1,5 +1,5 @@
 <template>
-  <q-page class="fondo q-pa-md">
+  <q-page class="fondo">
 
     <div class="contenedor">
 
@@ -10,147 +10,182 @@
           class="banner"
           fit="cover"
         >
-          <div class="absolute-bottom text-h4 text-weight-bold">
-            Centro Agroturístico SENA
+          <div class="banner-titulo">
+            <h1>Centro Agroturístico SENA</h1>
+            <p>Formación integral para un mejor futuro.</p>
           </div>
         </q-img>
 
+        <div class="contenido-principal">
 
-        <q-card-section>
+          <div class="columna-izquierda">
 
-          <div class="text-h5 text-weight-bold q-mb-md">
-            <div class="titulos">Centro Agroturístico</div>
+            <div class="seccion">
+
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="🗺️" />
+                </div>
+                Centro Agroturístico
+              </div>
+
+              <p class="texto-descripcion">
+                El Centro Agroturístico del SENA está ubicado en San Gil,
+                Santander, y hace parte de la oferta de centros de formación
+                del Servicio Nacional de Aprendizaje.<br><br>
+
+                Su objetivo principal es contribuir a la formación profesional
+                integral de los aprendices y al desarrollo de la región.<br><br>
+
+                El centro cuenta con diferentes espacios y servicios que apoyan
+                el proceso de formación, entre ellos biblioteca, enfermería,
+                bienestar, cafetería y coordinación.<br><br>
+
+                A través de sus programas de formación, el SENA busca fortalecer
+                las competencias de sus aprendices y prepararlos para enfrentar
+                las necesidades del sector productivo.
+              </p>
+
+            </div>
+
+            <div class="seccion">
+
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="🎈" />
+                </div>
+                Servicios del Centro
+              </div>
+
+              <q-list class="lista-servicios">
+
+                <q-item class="servicio-item">
+                  <q-item-section avatar>
+                    <div class="servicio-icono">
+                      <q-icon name="⛑️" />
+                    </div>
+                  </q-item-section>
+
+                  <q-item-section>
+                    <q-item-label class="text-weight-bold">
+                      Enfermería
+                    </q-item-label>
+
+                    <q-item-label caption>
+                      Atención y orientación básica en salud.
+                    </q-item-label>
+                  </q-item-section>
+                </q-item>
+
+                <q-item class="servicio-item">
+                  <q-item-section avatar>
+                    <div class="servicio-icono">
+                      <q-icon name="❤️‍🩹" />
+                    </div>
+                  </q-item-section>
+
+                  <q-item-section>
+                    <q-item-label class="text-weight-bold">
+                      Bienestar
+                    </q-item-label>
+
+                    <q-item-label caption>
+                      Actividades y acompañamiento para los aprendices.
+                    </q-item-label>
+                  </q-item-section>
+                </q-item>
+
+                <q-item class="servicio-item">
+                  <q-item-section avatar>
+                    <div class="servicio-icono">
+                      <q-icon name="📚" />
+                    </div>
+                  </q-item-section>
+
+                  <q-item-section>
+                    <q-item-label class="text-weight-bold">
+                      Biblioteca
+                    </q-item-label>
+
+                    <q-item-label caption>
+                      Espacio para consulta, lectura e investigación.
+                    </q-item-label>
+                  </q-item-section>
+                </q-item>
+
+                <q-item class="servicio-item">
+                  <q-item-section avatar>
+                    <div class="servicio-icono">
+                      <q-icon name="🍔" />
+                    </div>
+                  </q-item-section>
+
+                  <q-item-section>
+                    <q-item-label class="text-weight-bold">
+                      Cafetería
+                    </q-item-label>
+
+                    <q-item-label caption>
+                      Servicio de alimentos y bebidas.
+                    </q-item-label>
+                  </q-item-section>
+                </q-item>
+
+                <q-item class="servicio-item">
+                  <q-item-section avatar>
+                    <div class="servicio-icono">
+                      <q-icon name="👔" />
+                    </div>
+                  </q-item-section>
+
+                  <q-item-section>
+                    <q-item-label class="text-weight-bold">
+                      Coordinación
+                    </q-item-label>
+
+                    <q-item-label caption>
+                      Orientación académica y administrativa.
+                    </q-item-label>
+                  </q-item-section>
+                </q-item>
+
+              </q-list>
+
+            </div>
+
           </div>
 
-          <p class="texto-descripcion">
-            El Centro Agroturístico del SENA está ubicado en San Gil,
-            Santander, y hace parte de la oferta de centros de formación
-            del Servicio Nacional de Aprendizaje. Su objetivo principal
-            es contribuir a la formación profesional integral de los
-            aprendices y al desarrollo de la región.<br>
-            El centro cuenta con diferentes espacios y servicios que
-            apoyan el proceso de formación, entre ellos biblioteca,
-            enfermería, bienestar, cafetería y coordinación. Estos
-            espacios permiten brindar atención y acompañamiento a los
-            aprendices durante su etapa de formación.<br>
-            A través de sus programas de formación, el SENA busca
-            fortalecer las competencias de sus aprendices y prepararlos
-            para enfrentar las necesidades del sector productivo.
-            También promueve el desarrollo de habilidades personales,
-            sociales y laborales.<br>
-            El Centro Agroturístico representa un espacio de aprendizaje,
-            convivencia y crecimiento personal, donde aprendices,
-            instructores y funcionarios trabajan en conjunto para
-            contribuir al desarrollo social y económico de la región.
-          </p>
+          <div class="tarjeta-encargado">
 
-        </q-card-section>
+            <q-avatar class="avatar-encargado integrante-avatar">
+              <q-icon name="👦🏻" size="45px" />
+            </q-avatar>
 
+            <div class="nombre-encargado">
+              Esteban Neira
+            </div>
 
-        <q-separator />
+            <div class="cargo-encargado">
+              Desarrollador
+            </div>
 
-        <q-card-section>
+            <div class="dato-encargado">
+              <q-icon name="📩" />
+              estebanneira888@gmail.com
+            </div>
 
-          <div class="text-h5 text-weight-bold q-mb-md">
-            <div class="titulos">Servicios del Centro</div>
+            <div class="dato-encargado">
+              <q-icon name="📌" />
+              Ficha 3174193
+            </div>
+
+            <div class="mensaje-encargado">
+              Proyecto de servicios del Centro Agroturístico SENA San Gil.
+            </div>
+
           </div>
 
-          <q-list bordered separator class="rounded-borders">
-
-            <q-item>
-              <q-item-section avatar>
-                <q-icon name="⛑️" size="30px" />
-              </q-item-section>
-
-              <q-item-section>
-                <q-item-label>Enfermería</q-item-label>
-                <q-item-label caption>
-                  Atención y orientación básica en salud.
-                </q-item-label>
-              </q-item-section>
-            </q-item>
-
-
-            <q-item>
-              <q-item-section avatar>
-                <q-icon name="❤️‍🩹" size="30px" />
-              </q-item-section>
-
-              <q-item-section>
-                <q-item-label>Bienestar</q-item-label>
-                <q-item-label caption>
-                  Actividades y acompañamiento para el bienestar
-                  de los aprendices.
-                </q-item-label>
-              </q-item-section>
-            </q-item>
-
-
-            <q-item>
-              <q-item-section avatar>
-                <q-icon name="📚" size="30px" />
-              </q-item-section>
-
-              <q-item-section>
-                <q-item-label>Biblioteca</q-item-label>
-                <q-item-label caption>
-                  Espacio para consulta, lectura e investigación.
-                </q-item-label>
-              </q-item-section>
-            </q-item>
-
-
-            <q-item>
-              <q-item-section avatar>
-                <q-icon name="🍔" size="30px" />
-              </q-item-section>
-
-              <q-item-section>
-                <q-item-label>Cafetería</q-item-label>
-                <q-item-label caption>
-                  Servicio de alimentos y bebidas para la comunidad.
-                </q-item-label>
-              </q-item-section>
-            </q-item>
-
-
-            <q-item>
-              <q-item-section avatar>
-                <q-icon name="👔" size="30px" />
-              </q-item-section>
-
-              <q-item-section>
-                <q-item-label>Coordinación</q-item-label>
-                <q-item-label caption>
-                  Orientación y atención relacionada con los procesos
-                  administrativos y académicos.
-                </q-item-label>
-              </q-item-section>
-            </q-item>
-
-          </q-list>
-
-        </q-card-section>
-
-        <q-separator />
-        
-            <q-card class="integrante">
-              <q-card-section class="text-center">
-                  <q-icon name="👦🏻" size="60px" />
-            
-                <div class="text-h6 text-weight-bold q-mt-md">
-                  Esteban Neira
-                </div>
-
-                <div class="text-subtitle1">
-                  estebanneira888@gmail.com<br>
-                  ficha: 3174193<br>
-                  Desarrollador
-                </div>
-
-              </q-card-section>
-
-            </q-card>
+        </div>
 
       </q-card>
 

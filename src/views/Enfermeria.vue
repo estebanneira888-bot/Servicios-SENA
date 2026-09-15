@@ -1,5 +1,5 @@
 <template>
-  <q-page class="fondo q-pa-md">
+  <q-page class="fondo">
 
     <div class="contenedor">
 
@@ -10,164 +10,204 @@
           class="banner"
           fit="cover"
         >
-          <div class="absolute-bottom text-h4 text-weight-bold">
-            Enfermería
+          <div class="banner-titulo">
+            <h1>Enfermería</h1>
+            <p>Cuidado, prevención y bienestar para toda la comunidad SENA.</p>
           </div>
         </q-img>
 
-        <q-card-section>
-          <div class="text-h5 text-weight-bold q-mb-md">
-            <div class="titulos">Enfermería</div>
-          </div>
+        <div class="contenido-principal">
 
-          <p class="texto-descripcion">
-            El servicio de enfermería del SENA brinda atención y orientación
-            básica en salud a los aprendices, instructores y demás integrantes
-            de la comunidad educativa.<br>
-            Este espacio está destinado a prestar primeros auxilios, realizar
-            acompañamiento en situaciones que requieran atención inmediata y
-            promover hábitos de vida saludable.<br>
-            También ofrece orientación sobre el cuidado de la salud y,
-            cuando es necesario, facilita la remisión a los servicios de salud
-            correspondientes.
-          </p>
-        </q-card-section>
+          <div class="columna-izquierda">
 
-        <q-separator />
+            <div class="seccion">
 
-        <q-card-section>
-          <div class="text-h6 text-weight-bold q-mb-md">
-            <div class="titulos">⏳Horarios de atención</div>
-          </div>
-
-          <q-list bordered separator class="rounded-borders">
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Lunes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                6:30 a. m. - 10:30 a.m ---- 4:00 p.m - 8:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Martes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                6:30 a. m. - 10:30 a.m ---- 4:00 p.m - 8:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Miércoles</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                6:30 a. m. - 10:30 a.m ---- 4:00 p.m - 8:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Jueves</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                6:30 a. m. - 10:30 a.m ---- 4:00 p.m - 8:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Viernes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                6:30 a. m. - 10:30 a.m ---- 4:00 p.m - 8:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Sábado</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                Sin servicio
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Domingo</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                Sin servicio
-              </q-item-section>
-            </q-item>
-
-          </q-list>
-        </q-card-section>
-
-        <q-separator />
-
-        <q-card-section>
-
-          <div class="text-h6 text-weight-bold q-mb-md">
-            <div class="titulos">📱Contacto</div>
-          </div>
-
-          <div class="contacto-item">
-            
-
-            <span>
-              +57 321 415 39 95
-            </span>
-          </div>
-
-        </q-card-section>
-
-        <q-separator />
-
-       
-        <q-card-section>
-
-          <div class="text-h6 text-weight-bold q-mb-lg">
-            <div class="titulos">⛑️Encargado de atención al cliente</div>
-          </div>
-
-          <div class="encargado">
-
-            <q-avatar size="110px" color="primary" text-color="white">
-              <img src="../img/enfermeria.jpeg" size="60px" />
-            </q-avatar>
-
-            <div class="encargado-info">
-
-              <div class="text-h6 text-weight-bold">
-                Enfermera encargada
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="❓" />
+                </div>
+                ¿Qué es el servicio?
               </div>
 
-              <div class="text-subtitle1">
-                Profesional de Enfermería
+              <p class="texto-descripcion">
+                El servicio de enfermería del SENA brinda atención y orientación
+                básica en salud a los aprendices, instructores y demás integrantes
+                de la comunidad educativa.<br><br>
+
+                Este espacio está destinado a prestar primeros auxilios, realizar
+                acompañamiento en situaciones que requieran atención inmediata y
+                promover hábitos de vida saludable.<br><br>
+
+                También ofrece orientación sobre el cuidado de la salud y,
+                cuando es necesario, facilita la remisión a los servicios de salud
+                correspondientes.
+              </p>
+
+            </div>
+
+            <div class="seccion">
+
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="⏳" />
+                </div>
+                Horarios de atención
               </div>
 
-              <div class="text-body1 q-mt-sm">
-                <class="q-mr-sm" color="primary" />
-                enfermeria@sena.edu.co
+              <q-list class="horarios">
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Lunes</q-item-section>
+                  <q-item-section side class="horario-hora">
+                    6:30 a. m. - 10:30 a. m. / 4:00 p. m. - 8:00 p. m.
+                  </q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Martes</q-item-section>
+                  <q-item-section side class="horario-hora">
+                    6:30 a. m. - 10:30 a. m. / 4:00 p. m. - 8:00 p. m.
+                  </q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Miércoles</q-item-section>
+                  <q-item-section side class="horario-hora">
+                    6:30 a. m. - 10:30 a. m. / 4:00 p. m. - 8:00 p. m.
+                  </q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Jueves</q-item-section>
+                  <q-item-section side class="horario-hora">
+                    6:30 a. m. - 10:30 a. m. / 4:00 p. m. - 8:00 p. m.
+                  </q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Viernes</q-item-section>
+                  <q-item-section side class="horario-hora">
+                    6:30 a. m. - 10:30 a. m. / 4:00 p. m. - 8:00 p. m.
+                  </q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Sábado</q-item-section>
+                  <q-item-section side class="horario-hora">
+                    Sin servicio
+                  </q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Domingo</q-item-section>
+                  <q-item-section side class="horario-hora">
+                    Sin servicio
+                  </q-item-section>
+                </q-item>
+
+              </q-list>
+
+            </div>
+
+            <div class="seccion">
+
+              <div class="contacto-box">
+
+                <div class="contacto-icono">
+                  <q-icon name="📱" />
+                </div>
+
+                <div>
+                  <div class="contacto-titulo">
+                    CONTACTO
+                  </div>
+
+                  <div class="contacto-numero">
+                    +57 321 415 39 95
+                  </div>
+                </div>
+
               </div>
 
             </div>
 
           </div>
 
-        </q-card-section>
+          <div class="tarjeta-encargado">
+
+            <q-avatar>
+              <img src="../img/enfermeria.jpeg">
+            </q-avatar>
+
+            <div class="nombre-encargado">
+              Enfermera encargada
+            </div>
+
+            <div class="cargo-encargado">
+              Profesional de Enfermería
+            </div>
+
+            <div class="dato-encargado">
+              <q-icon name="🙌" />
+              Atención en salud
+            </div>
+
+            <div class="dato-encargado">
+              <q-icon name="📩" />
+              enfermeria@sena.edu.co
+            </div>
+
+            <div class="mensaje-encargado">
+              “Tu salud también hace parte de tu formación.”
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="beneficios">
+
+          <div class="beneficio">
+            <div class="beneficio-icono">
+              <q-icon name="🗣️" />
+            </div>
+            <div class="beneficio-titulo">Atención oportuna</div>
+            <div class="beneficio-texto">
+              Primeros auxilios y orientación en salud.
+            </div>
+          </div>
+
+          <div class="beneficio">
+            <div class="beneficio-icono">
+              <q-icon name="⚠️" />
+            </div>
+            <div class="beneficio-titulo">Prevención</div>
+            <div class="beneficio-texto">
+              Promoción de hábitos saludables.
+            </div>
+          </div>
+
+          <div class="beneficio">
+            <div class="beneficio-icono">
+              <q-icon name="🫂" />
+            </div>
+            <div class="beneficio-titulo">Comunidad educativa</div>
+            <div class="beneficio-texto">
+              Atención para aprendices y funcionarios.
+            </div>
+          </div>
+
+          <div class="beneficio">
+            <div class="beneficio-icono">
+              <q-icon name="❤️‍🩹" />
+            </div>
+            <div class="beneficio-titulo">Tu bienestar</div>
+            <div class="beneficio-texto">
+              Cuidar de ti es nuestra prioridad.
+            </div>
+          </div>
+
+        </div>
 
       </q-card>
 
@@ -175,6 +215,3 @@
 
   </q-page>
 </template>
-
-
-

@@ -1,9 +1,8 @@
 <template>
-  <q-page class="fondo q-pa-md">
+  <q-page class="fondo">
 
     <div class="contenedor">
 
-    
       <q-card class="card">
 
         <q-img
@@ -11,164 +10,142 @@
           class="banner"
           fit="cover"
         >
-          <div class="absolute-bottom text-h4 text-weight-bold">
-            Biblioteca
+          <div class="banner-titulo">
+            <h1>Biblioteca</h1>
+            <p>Un espacio para aprender, consultar e investigar.</p>
           </div>
         </q-img>
 
-    
-        <q-card-section>
-          <div class="text-h5 text-weight-bold q-mb-md">
-            <div class="titulos">Biblioteca</div>
-          </div>
+        <div class="contenido-principal">
 
-          <p class="texto-descripcion">
-            La biblioteca del SENA Centro Agroturístico es un espacio de
-            aprendizaje, consulta y apoyo para los procesos de formación
-            profesional integral de los aprendices y funcionarios.<br>
-            Cuenta con recursos físicos y digitales que permiten consultar
-            información técnica, científica y humanística relacionada con
-            los diferentes programas de formación.<br>
-            También ofrece un ambiente adecuado para la lectura, investigación,
-            trabajo académico y desarrollo de actividades colaborativas.<br>
-            Tambien ofrece consultas en sala , prestamos a domicilio ,
-             prestamo interbibliotecario (pip) , talleres de lectura ,capacitaciones ,
-              talleres de lectura , acceso a tic, asesorías en busca de información ,
-             asesorías en un uso adecuado de catálogo bibliográfico.
-          </p>
-        </q-card-section>
+          <div class="columna-izquierda">
 
-        <q-separator />
+            <div class="seccion">
 
-     
-        <q-card-section>
-          <div class="text-h6 text-weight-bold text-primary q-mb-md">
-            <div class="titulos">⏳Horarios de atención</div>
-          </div>
-
-          <q-list bordered separator class="rounded-borders">
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Lunes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:00 a. m. - 10:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Martes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:00 a. m. - 10:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Miércoles</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:00 a. m. - 10:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Jueves</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:00 a. m. - 10:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Viernes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:00 a. m. - 10:00 p. m.
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Sábado</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                Sin servicio
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Domingo</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                Sin servicio
-              </q-item-section>
-            </q-item>
-
-          </q-list>
-        </q-card-section>
-
-        <q-separator />
-
-        <q-card-section>
-          <div class="text-h6 text-weight-bold q-mb-md">
-            <div class="titulos">📱Contacto</div>
-          </div>
-
-          <div class="contacto-item">
-            <size="28px" color="primary" />
-            <span>+57 312 584 80 32 </span>
-          </div>
-        </q-card-section>
-
-        <q-separator />
-
-       
-        <q-card-section>
-
-          <div class="text-h6 text-weight-bold q-mb-lg">
-            <div class="titulos">👩🏻Encargado de atención al cliente</div>
-          </div>
-
-          <div class="encargado">
-
-            <q-avatar size="110px" color="primary" text-color="white">
-              <img src="../img/bibliotecaria.jpeg" size="65px" />
-            </q-avatar>
-
-            <div class="encargado-info">
-
-              <div class="text-h6 text-weight-bold">
-                Encargado de Biblioteca
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="❓" />
+                </div>
+                ¿Qué es el servicio?
               </div>
 
-              <div class="text-subtitle1">
-                Yudith Milagros Martínez Bautista 
+              <p class="texto-descripcion">
+                La biblioteca del SENA Centro Agroturístico es un espacio de
+                aprendizaje, consulta y apoyo para los procesos de formación
+                profesional integral de los aprendices y funcionarios.<br><br>
+
+                Cuenta con recursos físicos y digitales que permiten consultar
+                información técnica, científica y humanística relacionada con
+                los diferentes programas de formación.<br><br>
+
+                También ofrece un ambiente adecuado para la lectura, investigación,
+                trabajo académico y desarrollo de actividades colaborativas.<br><br>
+
+                Ofrece consultas en sala, préstamos a domicilio, préstamo
+                interbibliotecario, talleres de lectura, capacitaciones, acceso
+                a TIC y asesorías en búsqueda de información.
+              </p>
+
+            </div>
+
+            <div class="seccion">
+
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="⏳" />
+                </div>
+                Horarios de atención
               </div>
 
-              <div class="text-body1 q-mt-sm">
-                <class="q-mr-sm"/>
-                ymmartinez@sena.edu.co
+              <q-list class="horarios">
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Lunes</q-item-section>
+                  <q-item-section side class="horario-hora">7:00 a. m. - 10:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Martes</q-item-section>
+                  <q-item-section side class="horario-hora">7:00 a. m. - 10:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Miércoles</q-item-section>
+                  <q-item-section side class="horario-hora">7:00 a. m. - 10:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Jueves</q-item-section>
+                  <q-item-section side class="horario-hora">7:00 a. m. - 10:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Viernes</q-item-section>
+                  <q-item-section side class="horario-hora">7:00 a. m. - 10:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Sábado</q-item-section>
+                  <q-item-section side class="horario-hora">Sin servicio</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Domingo</q-item-section>
+                  <q-item-section side class="horario-hora">Sin servicio</q-item-section>
+                </q-item>
+
+              </q-list>
+
+            </div>
+
+            <div class="contacto-box">
+
+              <div class="contacto-icono">
+                <q-icon name="📱" />
+              </div>
+
+              <div>
+                <div class="contacto-titulo">CONTACTO</div>
+                <div class="contacto-numero">
+                  +57 312 584 80 32
+                </div>
               </div>
 
             </div>
 
           </div>
 
-        </q-card-section>
+          <div class="tarjeta-encargado">
+
+            <q-avatar>
+              <img src="../img/bibliotecaria.jpeg">
+            </q-avatar>
+
+            <div class="nombre-encargado">
+              Yudith Milagros Martínez Bautista
+            </div>
+
+            <div class="cargo-encargado">
+              Encargada de Biblioteca
+            </div>
+
+            <div class="dato-encargado">
+              <q-icon name="🙌" />
+              Servicio de Biblioteca
+            </div>
+
+            <div class="dato-encargado">
+              <q-icon name="📩" />
+              ymmartinez@sena.edu.co
+            </div>
+
+            <div class="mensaje-encargado">
+              “Un buen libro puede convertirse en una nueva oportunidad para aprender.”
+            </div>
+
+          </div>
+
+        </div>
 
       </q-card>
 

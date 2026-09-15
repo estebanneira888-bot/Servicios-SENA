@@ -1,9 +1,8 @@
 <template>
-  <q-page class="fondo q-pa-md">
+  <q-page class="fondo">
 
     <div class="contenedor">
 
-    
       <q-card class="card">
 
         <q-img
@@ -11,156 +10,141 @@
           class="banner"
           fit="cover"
         >
-          <div class="absolute-bottom text-h4 text-weight-bold">
-            Coordinacion
+          <div class="banner-titulo">
+            <h1>Coordinación</h1>
+            <p>Orientación y acompañamiento en los procesos académicos.</p>
           </div>
         </q-img>
 
-    
-        <q-card-section>
-          <div class="text-h5 text-weight-bold q-mb-md">
-            <div class="titulos">Coordinacion</div>
-          </div>
+        <div class="contenido-principal">
 
-          <p class="texto-descripcion">
-            La Coordinación Académica apoya la gestión y trámite de novedades de los aprendices (retiros, deserción, traslados, aplazamientos y reingresos) de la formación titulada SENA.<br>
-Supervisa la programación de instructores para la formación profesional integral.<br>
-Garantiza la logística adecuada para que los ambientes de aprendizaje se mantengan en óptimas condiciones.<br>
-Atiende requerimientos académicos directos entre instructores y comunidad estudiantil.
-          </p>
-        </q-card-section>
+          <div class="columna-izquierda">
 
-        <q-separator />
+            <div class="seccion">
 
-     
-        <q-card-section>
-          <div class="text-h6 text-weight-bold text-primary q-mb-md">
-            <div class="titulos">⏳Horarios de atención</div>
-          </div>
-
-          <q-list bordered separator class="rounded-borders">
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Lunes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:30 a. m. - 12:00 p. m 
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Martes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:30 a. m. - 12:00 p. m 
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Miércoles</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:30 a. m. - 12:00 p. m 
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Jueves</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:30 a. m. - 12:00 p. m 
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Viernes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:30 a. m. - 12:00 p. m 
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Sábado</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                Sin servicio
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Domingo</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                Sin servicio
-              </q-item-section>
-            </q-item>
-
-          </q-list>
-        </q-card-section>
-
-        <q-separator />
-
-        <q-card-section>
-          <div class="text-h6 text-weight-bold q-mb-md">
-            <div class="titulos">📱Contacto</div>
-          </div>
-
-          <div class="contacto-item">
-            <size="28px" color="primary" />
-            <span>No hay </span>
-          </div>
-        </q-card-section>
-
-        <q-separator />
-
-       
-        <q-card-section>
-
-          <div class="text-h6 text-weight-bold q-mb-lg">
-            <div class="titulos">👦🏻Encargado de atención al cliente</div>
-          </div>
-
-          <div class="encargado">
-
-            <q-avatar size="110px" color="primary" text-color="white">
-              <img src="../img/coordinacion.jpeg" size="65px" />
-            </q-avatar>
-
-            <div class="encargado-info">
-
-              <div class="text-h6 text-weight-bold">
-                coordinador académico 
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="❓" />
+                </div>
+                ¿Qué es el servicio?
               </div>
 
-              <div class="text-subtitle1">
-                Luis Carlos Reina 
+              <p class="texto-descripcion">
+                La Coordinación Académica apoya la gestión y trámite de
+                novedades de los aprendices, como retiros, deserción,
+                traslados, aplazamientos y reingresos de la formación
+                titulada SENA.<br><br>
+
+                Supervisa la programación de instructores para la formación
+                profesional integral.<br><br>
+
+                Garantiza la logística adecuada para que los ambientes de
+                aprendizaje se mantengan en óptimas condiciones.<br><br>
+
+                También atiende requerimientos académicos entre instructores
+                y la comunidad estudiantil.
+              </p>
+
+            </div>
+
+            <div class="seccion">
+
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="⏳" />
+                </div>
+                Horarios de atención
               </div>
 
-              <div class="text-body1 q-mt-sm">
-                <class="q-mr-sm"/>
-                lreinas@sena.edu.com
+              <q-list class="horarios">
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Lunes</q-item-section>
+                  <q-item-section side class="horario-hora">7:30 a. m. - 12:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Martes</q-item-section>
+                  <q-item-section side class="horario-hora">7:30 a. m. - 12:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Miércoles</q-item-section>
+                  <q-item-section side class="horario-hora">7:30 a. m. - 12:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Jueves</q-item-section>
+                  <q-item-section side class="horario-hora">7:30 a. m. - 12:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Viernes</q-item-section>
+                  <q-item-section side class="horario-hora">7:30 a. m. - 12:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Sábado</q-item-section>
+                  <q-item-section side class="horario-hora">Sin servicio</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Domingo</q-item-section>
+                  <q-item-section side class="horario-hora">Sin servicio</q-item-section>
+                </q-item>
+
+              </q-list>
+
+            </div>
+
+            <div class="contacto-box">
+
+              <div class="contacto-icono">
+                <q-icon name="📱" />
+              </div>
+
+              <div>
+                <div class="contacto-titulo">CONTACTO</div>
+                <div class="contacto-numero">
+                  No disponible
+                </div>
               </div>
 
             </div>
 
           </div>
 
-        </q-card-section>
+          <div class="tarjeta-encargado">
+
+            <q-avatar>
+              <img src="../img/coordinacion.jpeg">
+            </q-avatar>
+
+            <div class="nombre-encargado">
+              Luis Carlos Reina
+            </div>
+
+            <div class="cargo-encargado">
+              Coordinador Académico
+            </div>
+
+            <div class="dato-encargado">
+              <q-icon name="🙌" />
+              Coordinación Académica
+            </div>
+
+            <div class="dato-encargado">
+              <q-icon name="📩" />
+              lreinas@sena.edu.com
+            </div>
+
+            <div class="mensaje-encargado">
+              “Trabajamos para apoyar tu proceso de formación.”
+            </div>
+
+          </div>
+
+        </div>
 
       </q-card>
 

@@ -1,9 +1,8 @@
 <template>
-  <q-page class="fondo q-pa-md">
+  <q-page class="fondo">
 
     <div class="contenedor">
 
-    
       <q-card class="card">
 
         <q-img
@@ -11,162 +10,143 @@
           class="banner"
           fit="cover"
         >
-          <div class="absolute-bottom text-h4 text-weight-bold">
-            Cafeteria
+          <div class="banner-titulo">
+            <h1>Cafetería</h1>
+            <p>Un espacio para alimentarse, descansar y compartir.</p>
           </div>
         </q-img>
 
-    
-        <q-card-section>
-          <div class="text-h5 text-weight-bold q-mb-md">
-            <div class="titulos">Cafeteria</div>
-          </div>
+        <div class="contenido-principal">
 
-          <p class="texto-descripcion">
-            Es un espacio destinado a brindar diferentes opciones de alimentos y bebidas a los aprendices, instructores, funcionarios y visitantes del centro.<br>
-             Es un lugar donde la comunidad educativa puede disfrutar de un momento de descanso durante las jornadas de formación y actividades laborales.<br>
+          <div class="columna-izquierda">
 
-Además de ofrecer productos para el consumo diario, la cafetería funciona como un punto de encuentro para compartir con los compañeros y fortalecer la convivencia dentro del centro.<br>
- Cuenta con un ambiente agradable y adecuado para que los aprendices puedan alimentarse, descansar y recargar energías antes de continuar con sus actividades.<br>
+            <div class="seccion">
 
-Este servicio hace parte de los espacios que contribuyen al bienestar de la comunidad SENA, facilitando el acceso a alimentos y bebidas durante las diferentes jornadas.<br>
- Su atención busca brindar un servicio amable y oportuno, teniendo en cuenta las necesidades de las personas que hacen uso de este espacio.<br>
-
-La cafetería también representa un lugar importante dentro del Centro Agroturístico, ya que permite que aprendices e integrantes del centro tengan un espacio para compartir y disfrutar durante sus tiempos libres.
-          </p>
-        </q-card-section>
-
-        <q-separator />
-
-     
-        <q-card-section>
-          <div class="text-h6 text-weight-bold text-primary q-mb-md">
-            <div class="titulos">⏳Horarios de atención</div>
-          </div>
-
-          <q-list bordered separator class="rounded-borders">
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Lunes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:00 a. m. - 12:00 p. m - 1:00 p. m ---- 5:30 p. m. - 7:00 p. m - 9:00 p. m
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Martes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:00 a. m. - 12:00 p. m - 1:00 p. m ---- 5:30 p. m. - 7:00 p. m - 9:00 p. m
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Miércoles</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:00 a. m. - 12:00 p. m - 1:00 p. m ---- 5:30 p. m. - 7:00 p. m - 9:00 p. m
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Jueves</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:00 a. m. - 12:00 p. m - 1:00 p. m ---- 5:30 p. m. - 7:00 p. m - 9:00 p. m
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Viernes</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                7:00 a. m. - 12:00 p. m - 1:00 p. m ---- 5:30 p. m. - 7:00 p. m - 9:00 p. m
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Sábado</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                Sin servicio
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Domingo</q-item-label>
-              </q-item-section>
-
-              <q-item-section side>
-                Sin servicio
-              </q-item-section>
-            </q-item>
-
-          </q-list>
-        </q-card-section>
-
-        <q-separator />
-
-        <q-card-section>
-          <div class="text-h6 text-weight-bold q-mb-md">
-            <div class="titulos">📱Contacto</div>
-          </div>
-
-          <div class="contacto-item">
-            <size="28px" color="primary" />
-            <span>+57 322 303 84 51 </span>
-          </div>
-        </q-card-section>
-
-        <q-separator />
-
-       
-        <q-card-section>
-
-          <div class="text-h6 text-weight-bold q-mb-lg">
-            <div class="titulos">👩🏻Encargado de atención al cliente</div>
-          </div>
-
-          <div class="encargado">
-
-            <q-avatar size="110px" color="primary" text-color="white">
-              <img src="../img/cafeteria.jpeg" size="65px" />
-            </q-avatar>
-
-            <div class="encargado-info">
-
-              <div class="text-h6 text-weight-bold">
-                Cordinadora de cafeteria
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="❓" />
+                </div>
+                ¿Qué es el servicio?
               </div>
 
-              <div class="text-subtitle1">
-                Laura Carreño
+              <p class="texto-descripcion">
+                Es un espacio destinado a brindar diferentes opciones de
+                alimentos y bebidas a los aprendices, instructores, funcionarios
+                y visitantes del centro.<br><br>
+
+                Es un lugar donde la comunidad educativa puede disfrutar de un
+                momento de descanso durante las jornadas de formación y
+                actividades laborales.<br><br>
+
+                Además de ofrecer productos para el consumo diario, la cafetería
+                funciona como un punto de encuentro para compartir con los
+                compañeros y fortalecer la convivencia dentro del centro.<br><br>
+
+                Cuenta con un ambiente agradable para que los aprendices puedan
+                alimentarse, descansar y recargar energías antes de continuar
+                con sus actividades.
+              </p>
+
+            </div>
+
+            <div class="seccion">
+
+              <div class="titulo-seccion">
+                <div class="icono-titulo">
+                  <q-icon name="⏳" />
+                </div>
+                Horarios de atención
               </div>
 
-              <div class="text-body1 q-mt-sm">
-                <class="q-mr-sm"/>
-                lcarreno@sena.edu.com
+              <q-list class="horarios">
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Lunes</q-item-section>
+                  <q-item-section side class="horario-hora">7:00 a. m. - 12:00 p. m. / 1:00 p. m. - 9:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Martes</q-item-section>
+                  <q-item-section side class="horario-hora">7:00 a. m. - 12:00 p. m. / 1:00 p. m. - 9:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Miércoles</q-item-section>
+                  <q-item-section side class="horario-hora">7:00 a. m. - 12:00 p. m. / 1:00 p. m. - 9:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Jueves</q-item-section>
+                  <q-item-section side class="horario-hora">7:00 a. m. - 12:00 p. m. / 1:00 p. m. - 9:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Viernes</q-item-section>
+                  <q-item-section side class="horario-hora">7:00 a. m. - 12:00 p. m. / 1:00 p. m. - 9:00 p. m.</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Sábado</q-item-section>
+                  <q-item-section side class="horario-hora">Sin servicio</q-item-section>
+                </q-item>
+
+                <q-item class="horario-item">
+                  <q-item-section class="horario-dia">Domingo</q-item-section>
+                  <q-item-section side class="horario-hora">Sin servicio</q-item-section>
+                </q-item>
+
+              </q-list>
+
+            </div>
+
+            <div class="contacto-box">
+
+              <div class="contacto-icono">
+                <q-icon name="📱" />
+              </div>
+
+              <div>
+                <div class="contacto-titulo">CONTACTO</div>
+                <div class="contacto-numero">
+                  +57 322 303 84 51
+                </div>
               </div>
 
             </div>
 
           </div>
 
-        </q-card-section>
+          <div class="tarjeta-encargado">
+
+            <q-avatar >
+              <img src="../img/cafeteria.jpeg">
+            </q-avatar>
+
+            <div class="nombre-encargado">
+              Laura Carreño
+            </div>
+
+            <div class="cargo-encargado">
+              Coordinadora de Cafetería
+            </div>
+
+            <div class="dato-encargado">
+              <q-icon name="🙌" />
+              Servicio de cafetería
+            </div>
+
+            <div class="dato-encargado">
+              <q-icon name="📨" />
+              lcarreno@sena.edu.com
+            </div>
+
+            <div class="mensaje-encargado">
+              “Un espacio para compartir, alimentarse y recargar energías.”
+            </div>
+
+          </div>
+
+        </div>
 
       </q-card>
 
