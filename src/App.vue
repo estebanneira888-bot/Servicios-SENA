@@ -44,7 +44,7 @@
       <div class="menu-cabecera">
 
         <q-avatar size="75px">
-          <img src="./img/Logoo.png">
+          <img src="./img/logoo.png">
         </q-avatar>
 
         <div class="menu-titulo">
